@@ -9,24 +9,20 @@
     color: #fafafa;
 }
 
-.overview-main h1 {
+.overview-main h1, .overview-main h3 {
     text-align: center;
 }
 
-.overview-main h3 {
-    text-align: center;
-}
-
-.overview-points {
+.overview-cell {
     width: 100%;
 }
 
-.overview-points-i{
+.overview-cell-i{
     width: 30%;
     float: left;
 }
 
-.overview-points-t {
+.overview-cell-t {
     width: 65%;
     float: right;
 }
