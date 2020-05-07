@@ -16,3 +16,17 @@
 .overview-main h3 {
     text-align: center;
 }
+
+.overview-points {
+    width: 100%;
+}
+
+.overview-points-i{
+    width: 30%;
+    float: left;
+}
+
+.overview-points-t {
+    width: 65%;
+    float: right;
+}
