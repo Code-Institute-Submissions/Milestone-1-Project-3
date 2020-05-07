@@ -1,0 +1,18 @@
+/*---------------------------------overview secion */
+
+.overview-main {
+    height: 500px;
+    background-image: url(/assets/images/SR_Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fafafa;
+}
+
+.overview-main h1 {
+    text-align: center;
+}
+
+.overview-main h3 {
+    text-align: center;
+}
