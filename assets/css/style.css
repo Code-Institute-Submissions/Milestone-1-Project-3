@@ -16,13 +16,13 @@
 
 #overview-points {
 margin-top: 30px;
-margin-bottom: 40px;
+margin-bottom: 50px;
 width:100%;
 }
 
 .overview-cell {
     width: 100%;
-    margin:auto;   
+    display: inline-block;
 }
 
 .overview-cell-i{
@@ -33,7 +33,9 @@ width:100%;
 
 .overview-cell-t {
     width: 60%;
+    text-align: left;
     float: right;
+    margin: 0 5% 0 5%;
 }
 
 .overview-cell-i i {
@@ -42,15 +44,35 @@ width:100%;
 
 /*---------------------------------Footer secion */
 
+footer {
+   
+}
+
 footer > div {
     color: #fff;
     background-color: #000;
+    width: 100%
     position: absolute;
     top: 100%;
-    margin-top: 100px;
-    width: 100%
+    height:50px;
+    clear: both;
 }
 
-#links_footer > li {
+footer div {
+    padding-top: 8px;
+}
+
+footer div p{
+    margin-left: 25px;
+    float: left;
+    width: 30%;
+}
+
+.links_footer {
+    float: left;
+    margin-right: 20px;
+}
+
+.links_footer li {
     display: inline-block;
 }
