@@ -1,23 +1,32 @@
+body {
+    padding-top: 50px;  /* move the content to not be covered by the navbar */
+}
+
 /*---------------------------------overview secion */
 
 .overview-main {
+    position:relative;
     height: 500px;
-    background-image: url(/assets/images/SR_Background.jpg);
+    width: 100%;
+    background-image: url(../images/SR_Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fafafa;
 }
 
-.overview-main h1,
-.overview-main h3 {
-   text-align: center;
+.overview-t {
+    position:relative;
+    top: 80%;
+    text-align: center;
+    color: red;
 }
 
 #overview-points {
-margin-top: 30px;
-margin-bottom: 50px;
-width:100%;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width:100%;
 }
 
 .overview-cell {
