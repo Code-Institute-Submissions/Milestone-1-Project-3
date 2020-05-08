@@ -4,11 +4,15 @@ body {
 
 /*---------------------------------overview secion */
 
+#overview {
+    padding: 25px 0;
+}
+
 .overview-main {
     position:relative;
     height: 500px;
     width: 100%;
-    background-image: url(../images/SR_Background.jpg);
+    background-image: url(images/SR_Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,10 +58,10 @@ body {
 
 /*------------------ Features section -----------------*/
 
-.features{
-    margin: auto;
+#features{
+    padding: 20px 0;
     background-color: grey;
-    
+    width: 100%;
 }
 
 .features_heading {
@@ -69,11 +73,18 @@ body {
 }
 
 .features_i {
+    width: 35%;
+    float:left;
+    text-align: right;
     border: 5px, solid, #000;
-
+    color: red;
 }
 
 .features_l {
+    width: 60%;
+    float:right;
+    text-align: left;
+    border: 5px, solid, #000;
 
 }
 
