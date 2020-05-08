@@ -5,26 +5,30 @@ body {
 /*---------------------------------overview secion */
 
 #overview {
-    padding: 25px 0;
+    padding: 0 0 15px 0;
 }
 
-.overview-main {
-    position:relative;
+.overview-server {
+    position: relative;
     height: 500px;
     width: 100%;
-    background-image: url(images/SR_Background.jpg);
+    background-image: url(../images/SR_Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fafafa;
+    z-index: -1;
 }
 
 .overview-t {
-    background-color: rgba (0,0,0,0.5)
-    position:relative;
-    top: 80%;
+    width: 100%;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
     text-align: center;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
 }
 
 #overview-points {
@@ -65,27 +69,39 @@ body {
 }
 
 .features_heading {
-
+    text-align: center;
+    margin: auto;
+    padding: 15px 0;
 }
 
 .features_cell {
-
+    padding: 20px 30px;
+    display: inline-block;
+    width: 100%;
 }
 
 .features_i {
-    width: 35%;
-    float:left;
-    text-align: right;
-    border: 5px, solid, #000;
-    color: red;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 60px;
+}
+
+.features_cell_i-p {
+ padding-left: 25%;
+ width: 40%;
+ float: left;
+ background-color: red;
 }
 
 .features_l {
-    width: 60%;
-    float:right;
+    width: 50%;
+    float: right;
     text-align: left;
-    border: 5px, solid, #000;
-
+    border: 1px solid #000;
 }
 
 /*---------------------------------Footer secion */
