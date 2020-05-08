@@ -55,6 +55,8 @@ body {
 /*------------------ Features section -----------------*/
 
 .features{
+    margin: auto;
+    background-color: grey;
     
 }
 
