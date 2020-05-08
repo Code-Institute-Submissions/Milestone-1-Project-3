@@ -19,17 +19,17 @@ body {
     position:relative;
     top: 80%;
     text-align: center;
-    color: red;
+    color: white;
 }
 
 #overview-points {
-    padding: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 50px;
     width:100%;
 }
 
 .overview-cell {
+    padding-top: 15px;
     width: 100%;
     display: inline-block;
 }
@@ -84,4 +84,17 @@ footer div p{
 
 .links_footer li {
     display: inline-block;
+}
+
+/*--------------- cosmetics */
+
+.division {
+   margin: auto;
+   width: 25%;
+   height: 3px;
+   background-color: #000;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
