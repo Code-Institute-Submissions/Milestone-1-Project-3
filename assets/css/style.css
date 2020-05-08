@@ -16,6 +16,7 @@ body {
 }
 
 .overview-t {
+    background-color: rgba (0,0,0,0.5)
     position:relative;
     top: 80%;
     text-align: center;
@@ -49,6 +50,29 @@ body {
 
 .overview-cell-i i {
     font-size: 40px;
+}
+
+/*------------------ Features section -----------------*/
+
+.features{
+    
+}
+
+.features_heading {
+
+}
+
+.features_cell {
+
+}
+
+.features_i {
+    border: 5px, solid, #000;
+
+}
+
+.features_l {
+
 }
 
 /*---------------------------------Footer secion */
