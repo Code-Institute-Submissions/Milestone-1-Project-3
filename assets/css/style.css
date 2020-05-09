@@ -32,48 +32,44 @@ body {
 }
 
 #overview-points {
-    position: relative;
-    background-color: red;
-    padding-top: 40px;
-    padding-bottom: 50px;
+  /*  background-color: red;*/
+    padding-top: 20px;
+    padding-bottom: 30px;
     width:100%;
 }
 
 .overview-cell {
     position:relative;
-    background-color: yellow;
-    width: 70%;
-    margin: auto;
+    margin-top: 40px;
+   /* background-color: yellow;*/
+    width: 100%;
     display: inline-block;
 }
 
 .overview-cell-i{
-    position: absolute;
-    left: 30%;
-    width: 80px;
-    height: 80px;
-    /*width: 30%;*/
+    width: 35%;
     text-align: right;
     float: left;
-    background-color: red;
-}
+ /*   background-color: orange;*/
+    margin: 10px 0px;
+ }
 
 .overview-cell-i i {
     width: 80px;
     height: 80px;
-    background-color: magenta;
+ /*   background-color: magenta;*/
     font-size: 60px;
     text-align: center;
     line-height: 80px;
 }
 
 .overview-cell-t {
-    background-color: blue;
-    width: 50%;
+  /*  background-color: blue;*/
+    width: 56%;
     text-align: left;
     float: right;
+    padding: 10px;
     margin: 0 5% 10px 0px;
-    vertical-align: middle;
 }
 
 
@@ -127,7 +123,6 @@ body {
 
 footer {
     position:relative;
-   
 }
 
 footer > div {
@@ -163,8 +158,8 @@ footer div p{
 
 .division {
    margin: auto;
-   width: 25%;
-   height: 3px;
+   width: 20%;
+   height: 2px;
    background-color: #000;
 }
 
