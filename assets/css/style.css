@@ -5,7 +5,7 @@ body {
 /*---------------------------------overview secion */
 
 #overview {
-    padding: 0 0 15px 0;
+    /*padding: 0 0 15px 0;*/
 }
 
 .overview-server {
@@ -32,33 +32,51 @@ body {
 }
 
 #overview-points {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    position: relative;
+    background-color: red;
+    padding-top: 40px;
+    padding-bottom: 50px;
     width:100%;
 }
 
 .overview-cell {
-    padding-top: 15px;
-    width: 100%;
+    position:relative;
+    background-color: yellow;
+    width: 70%;
+    margin: auto;
     display: inline-block;
 }
 
 .overview-cell-i{
-    width: 30%;
+    position: absolute;
+    left: 30%;
+    width: 80px;
+    height: 80px;
+    /*width: 30%;*/
     text-align: right;
     float: left;
-}
-
-.overview-cell-t {
-    width: 60%;
-    text-align: left;
-    float: right;
-    margin: 0 5% 0 5%;
+    background-color: red;
 }
 
 .overview-cell-i i {
-    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: magenta;
+    font-size: 60px;
+    text-align: center;
+    line-height: 80px;
 }
+
+.overview-cell-t {
+    background-color: blue;
+    width: 50%;
+    text-align: left;
+    float: right;
+    margin: 0 5% 10px 0px;
+    vertical-align: middle;
+}
+
+
 
 /*------------------ Features section -----------------*/
 
@@ -69,8 +87,9 @@ body {
 }
 
 .features_heading {
-    text-align: center;
+    width:50%;
     margin: auto;
+    text-align: center;
     padding: 15px 0;
 }
 
@@ -107,6 +126,7 @@ body {
 /*---------------------------------Footer secion */
 
 footer {
+    position:relative;
    
 }
 
