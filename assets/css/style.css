@@ -83,8 +83,7 @@ body {
 }
 
 .features_heading {
-    width:50%;
-    margin: auto;
+    width:100%;
     text-align: center;
     padding: 15px 0;
 }
@@ -148,8 +147,9 @@ footer div p{
 }
 
 .links_footer {
-    float: left;
-    margin-right: 20px;
+    float: right;
+    margin-right: 10%;
+    text-decoration: none;
 }
 
 .links_footer li {
