@@ -120,6 +120,12 @@ body {
     background-color: orange;
 }
 
+/*---------------------- Contact section */
+
+#contact {
+    margin-bottom: 30px;
+}
+
 /*---------------------------------Footer secion */
 
 footer {
@@ -168,3 +174,25 @@ footer div p{
 .uppercase {
     text-transform: uppercase;
 }
+
+/*--------- test *------------
+.features_cell > i {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 60px;
+    
+
+}
+
+.features_cell > ul {
+    width: 50%;
+    float: right;
+    text-align: left;
+    border: 1px solid #000;
+    background-color: orange;
+
+}*/

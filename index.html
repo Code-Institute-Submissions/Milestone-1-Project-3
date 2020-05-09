@@ -107,18 +107,15 @@
         <h4 class="uppercase">features</h4>
       </div>
       <div class="features_cell">
-        <div class="features_cell_i-p">
-          <div class="features_i"><i class="fas fa-microchip"></i></div>
-        </div>
+        <i class="fas fa-microchip"></i>
 
-        <div class="features_l">
-          <ul>
-            <li>AMD Prozen™ Porcessor</li>
-            <li># of CPU Cores: 64</li>
-            <li>Up to 32TB of RAM</li>
-          </ul>
-        </div>
+        <ul class="features_l">
+          <li>AMD Prozen™ Porcessor</li>
+          <li># of CPU Cores: 64</li>
+          <li>Up to 32TB of RAM</li>
+        </ul>
       </div>
+
       <div class="features_cell">
         <div class="features_cell_i-p">
           <div class="features_i"><i class="fas fa-network-wired"></i></div>
@@ -153,10 +150,57 @@
       </div>
       <div class="contact_cell">
         <form action="">
-          <input type="text" name="name" id="" />
-          <input type="text" name="lastname" id="" />
-          <input type="email" name="email" id="" />
-          <textarea name="observations" id="" cols="30" rows="10"></textarea>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="name">Name</label>
+              <input
+                required
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="last_name">Last Name</label>
+              <input
+                required
+                type="text"
+                name="lastname"
+                id="last_name"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="company">Company (Optional)</label>
+              <input
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Company"
+              />
+            </div>
+            <label for="comment">Comments</label>
+          </div>
+          <textarea
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="Please, add any comment here"
+          ></textarea>
+          <button type="submit" class="btn btn-primary">Sign in</button>
         </form>
       </div>
     </section>
