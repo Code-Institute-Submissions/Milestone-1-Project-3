@@ -196,37 +196,3 @@ footer div p{
     background-color: orange;
 
 }*/
-
-.features_cell_test {
-	position:relative;
-	background-color: red;
-	width:100%;
-	height: 200px;
-	
-}
-
-.features_overlay {
-	position:relative;
-	width:100%;
-	height:100%;
-	background-color: rgba(128, 128, 128, 0.5);
-	z-index:2;
-	
-}
-
-.features_cell_i_test{
-	width:40%;
-	height:100%;
-	background-color: blue;
-	float:left;
-	position: relative;
-	z-index:0;
-}
-
-.features_l_test {
-	width:60%;
-	background-color: yellow;
-	float:right;
-	height:100%;
-	position:relative;
-	z-index:0;
