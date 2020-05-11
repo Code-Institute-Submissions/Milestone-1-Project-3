@@ -250,3 +250,33 @@ footer div p{
 	height:100%;
 	position:relative;
 	z-index:0;
+}
+
+.message_cell {
+	position:relative;
+	background-color: red;
+	width:100%;
+	height: 200px;
+	
+}
+
+.message_i{
+    width:40%;
+	height:100%;
+    background-image: url(../images/ceo_message.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	float:left;
+	position: relative;
+	z-index:0;
+}
+
+.message_t {
+	width:60%;
+	background-color: yellow;
+	float:right;
+	height:100%;
+	position:relative;
+	z-index:0;
+}
