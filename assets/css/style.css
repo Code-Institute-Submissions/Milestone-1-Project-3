@@ -271,6 +271,21 @@ footer {
     display: inline-block;
 }
 
+.fa-linkedin {
+    color: blue;
+}
+
+
+.fa-twitter-square{
+    color: green;
+}
+
+.fa-youtube{
+    color:red;
+}
+
+
+
 /*--------------- cosmetics */
 
 .division {
