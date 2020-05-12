@@ -125,26 +125,26 @@ body {
     padding: 0px 0 10px 0;
 }
 
-.features_cell_test {
-    padding: 3px 0px;
+.features_cell {
+    margin: 20px 0px;
 	position:relative;
 	background-color: red;
 	width:100%;
-	height: 200px;
+	height: 250px;
 	
 }
 
 .features_overlay {
     display: none;
-	position:relative;
+	/*position:relative;
 	width:100%;
 	height:100%;
 	background-color: rgba(128, 128, 128, 0.5);
-	z-index:2;
+	z-index:2;*/
 	
 }
 
-.features_cell_i_test{
+.features_cell_i{
 	width:40%;
 	height:100%;
 	background-color: blue;
@@ -211,12 +211,13 @@ padding: 3%;
 
 #contact {
     background-color: yellow;
-    padding: 50px;
+    padding: 20px 5%;
 }
 
 .contact_cell {
+    padding: 50px 10%;
     background-color: brown;
-    width: 60%;    
+    width: 100%;    
 }
 
 /*---------------------------------Footer secion */
@@ -288,23 +289,98 @@ footer {
 
 /*--------------- cosmetics */
 
-.division {
-   margin: auto;
-   width: 20%;
-   height: 2px;
-   background-color: #000;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-/*--------- test *------------ */
-
 .heading_sections {
     color: white;
     width:100%;
     text-align: center;
     padding: 0px 0 10px 0;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*.division {
+   margin: auto;
+   width: 20%;
+   height: 2px;
+   background-color: #000;
+}*/
+
+
+/*--------- Media queries *------------ */
+
+@media only screen and (max-width: 500px) {
+
+
+/*------------- features -----------------*/
+
+.features_cell {
+   	height: 200px;
+	
+}
+
+/*.features_overlay {
+    display: initial;
+    position:absolute;
+    left: 0;
+    width:100%;
+	height:99%;
+	background-color: rgba(46, 89, 209, 0.445);
+	z-index:1;
+	
+}*/
+
+.features_t {
+    padding: 30px;
+    color: white;
+	width:100%;
+	background-color: rgba(52, 204, 77, 0.5);
+	height:100%;
+	position:absolute;
+    left:0;
+	z-index:2;
+}
+
+/*.features_cell_i{
+	width:40%;
+	height:100%;
+	background-color: blue;
+	float:left;
+	position: relative;
+	z-index:0;
+}*/
+
+.features_cell_i_hardware, 
+.features_cell_i_internet,
+.features_cell_i_support {
+    width:100%;
+}
+
+
+
+/*-------------- footer ------------------*/
+
+.copyright_footer {
+    display: none;
+}
+
+.social_footer {
+    text-align: center;
+    width: 100%;
+}
+
+.links_footer {
+   display: none;
+}
+
+
+}
+
+
+
+
+/*--------- test *------------ */
+
+
 
