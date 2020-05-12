@@ -31,49 +31,7 @@ body {
     z-index: 0;
 }
 
-/*
 
-#overview-points {
-  /*background-color: red;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    width:100%;
-}
-
-.overview-cell {
-    position:relative;
-    margin-top: 40px;
-   /*background-color: yellow;
-    width: 100%;
-    display: inline-block;
-}
-
-.overview-cell-i{
-    width: 35%;
-    text-align: right;
-    float: left;
-  /*background-color: orange;
-    margin: 10px 0px;
- }
-
-.overview-cell-i i {
-    width: 80px;
-    height: 80px;
-  /*background-color: magenta;
-    font-size: 60px;
-    text-align: center;
-    line-height: 80px;
-}
-
-.overview-cell-t {
-  /*background-color: blue;
-    width: 56%;
-    text-align: left;
-    float: right;
-    padding: 10px 60px 0 0;
-    margin: 0 5% 10px 0px;
-} 
-*/
 
 /*----------------- Message section----------- */
 
@@ -258,7 +216,7 @@ footer {
 }
 
 .links_footer {
-   /* background-color: green;*/
+   background-color: green;
     color: grey;
     width:33%;
     float: right;
@@ -273,16 +231,16 @@ footer {
 }
 
 .fa-linkedin {
-    color: blue;
+    color: rgb(0, 119, 255);
 }
 
 
 .fa-twitter-square{
-    color: green;
+    color: rgb(47, 172, 221);
 }
 
 .fa-youtube{
-    color:red;
+    color:rgb(194, 32, 32);
 }
 
 
@@ -312,11 +270,24 @@ footer {
 
 @media only screen and (max-width: 500px) {
 
+/*-------------- overview ------------------*/
+
+
+
+.overview-t {
+    font-size: 10px;
+}
+
 
 /*------------- features -----------------*/
 
+#features{
+    padding: 70px 0 0 0;
+    
+}
+
 .features_cell {
-   	height: 200px;
+    height: 200px;
 	
 }
 
@@ -361,26 +332,28 @@ footer {
 
 /*-------------- footer ------------------*/
 
+footer {
+    height: 50px;
+}
+
 .copyright_footer {
     display: none;
 }
 
 .social_footer {
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 100%;
 }
 
 .links_footer {
-   display: none;
+    display: none;
 }
 
 
 }
 
-
-
-
-/*--------- test *------------ */
 
 
 
