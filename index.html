@@ -161,9 +161,10 @@
       <div class="contact_cell">
         <form action="">
           <div class="form-row">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
               <label for="name">Name</label>
               <input
+                class="form-control"
                 required
                 type="text"
                 name="name"
@@ -171,9 +172,10 @@
                 placeholder="Name"
               />
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
               <label for="last_name">Last Name</label>
               <input
+                class="form-control"
                 required
                 type="text"
                 name="lastname"
@@ -183,34 +185,52 @@
             </div>
           </div>
           <div class="form-row">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
               <label for="email">E-mail</label>
               <input
+                class="form-control"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
               />
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
               <label for="company">Company (Optional)</label>
               <input
+                class="form-control"
                 type="text"
                 name="company"
                 id="company"
                 placeholder="Company"
               />
             </div>
-            <label for="comment">Comments</label>
           </div>
+          <label for="comment">Comments</label>
           <textarea
+            class="form-control col-md-8"
             name="comment"
             id="comment"
-            cols="30"
             rows="10"
             placeholder="Please, add any comment here"
-          ></textarea>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          >
+          </textarea>
+          <br> 
+          <div class="form-group">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                I've read and accept the <a href="#">Privacy policy</a>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Request information</button>
         </form>
       </div>
     </section>
