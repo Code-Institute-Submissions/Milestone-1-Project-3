@@ -1,5 +1,6 @@
 body {
     padding-top: 50px;  /* move the content to not be covered by the navbar */
+    background-color: rgb(84, 116, 138);
 }
 
 /*---------------------------------overview secion */
@@ -36,9 +37,9 @@ body {
 /*----------------- Message section----------- */
 
 .message_cell {
-    padding: 20px;
+    padding: 20px 0;
 	position:relative;
-	background-color: red;
+	/*background-color: red;*/
 	width:100%;
 	height: 400px;
 	
@@ -71,8 +72,8 @@ body {
 /*------------------ Features section -----------------*/
 
 #features{
-    padding: 70px 1% 0 1%;
-    background-color: grey;
+    padding: 70px 0;
+    background-color: rgb(84, 116, 138);
     width: 100%;
 }
 
@@ -86,7 +87,7 @@ body {
 .features_cell {
     margin: 20px 0px;
 	position:relative;
-	background-color: red;
+	/*background-color: red;*/
 	width:100%;
 	height: 250px;
 	
@@ -105,7 +106,7 @@ body {
 .features_cell_i{
 	width:40%;
 	height:100%;
-	background-color: blue;
+	/*background-color: blue;*/
 	float:left;
 	position: relative;
 	z-index:0;
@@ -173,13 +174,13 @@ padding: 3%;
 /*---------------------- Contact section */
 
 #contact {
-    background-color: yellow;
+    background-color: rgb(84, 116, 138);
     padding: 20px 5%;
 }
 
 .contact_cell {
     padding: 50px 10%;
-    background-color: brown;
+    background-color: rgb(173, 148, 110);
     width: 100%;    
 }
 
@@ -190,7 +191,7 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
-    background-color: black;
+    background-color: rgb(17, 17, 17);
 }
 
 .copyright_footer {
@@ -323,7 +324,7 @@ footer {
     padding: 0;
     color: white;
 	width:100%;
-	background-color: rgba(43, 43, 43, 0.5);
+	background-color: rgba(42, 105, 121, 0.678);
 	height:100%;
 	position:absolute;
     left:0;
