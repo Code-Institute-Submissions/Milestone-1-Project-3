@@ -10,16 +10,22 @@ body {
     /*padding: 0 0 15px 0;*/
 }
 
-.overview-server {
-    position: relative;
+.overview-container {
+    background-color: red;
+    position:relative;
     height: 500px;
     width: 100%;
+}
+
+.overview-server {
+   width: 100%;
+   height: 100%;
     background-image: url(../images/SR_Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    /*background-size: auto;*/
     color: #fafafa;
-    z-index: -1;
+    z-index: 1;
 }
 
 .overview-t {
@@ -30,7 +36,7 @@ body {
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    z-index: 2;
 }
 
 
