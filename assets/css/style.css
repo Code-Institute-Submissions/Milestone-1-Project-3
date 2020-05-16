@@ -32,7 +32,7 @@ body {
     background-image: url(../images/SR_Background2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: #fafafa;
     z-index: 1;
 }
