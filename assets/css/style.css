@@ -221,10 +221,10 @@ padding: 3%;
     left: 0;
 }
 
-*/.social-footer {
+.social-footer {
     
-    /*line-height: 0;
-    font-size: 30px;*/
+    line-height: 0;
+    font-size: 30px;
     text-align: center;
     /*width:100%;
     text-decoration: none;
@@ -233,7 +233,7 @@ padding: 3%;
     right: 33%;
 }*/
 
-.social-footer ul > li {
+.social-footer ul {
     color: rgb(48, 70, 70);
     /*display: inline-block;*/
 }/*
