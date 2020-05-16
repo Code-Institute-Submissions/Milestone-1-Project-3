@@ -6,7 +6,6 @@ body {
 }
 
 #logo {
-   /* border: 2px solid rgb(214, 214, 214);*/
     border-radius: 15px;
     width: 50px;
     height: 50px;
@@ -95,15 +94,12 @@ body {
 
 .features-heading {
     font-family: 'Exo', sans-serif;
-    /*color: rgb(0, 0, 0);*/
     width:100%;
     text-align: center;
     padding: 0px 0 10px 0;
 }
 
 .features-cell {
-  /* border-top: 2px solid orange;*/
-    /*border-bottom: 2px solid orange;*/
     margin: 20px 0px;
 	position:relative;
 	/*background-color: red;*/
@@ -162,7 +158,6 @@ body {
 }
 
 .features-t {
-    /*border-left: 2px solid orange;*/
     font-family: 'Cabin', sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -190,7 +185,6 @@ padding: 3%;
 /*---------------------- Contact section */
 
 #contact {
-    /*background-color: rgb(84, 116, 138);*/
     padding: 70px 5%;
 }
 
@@ -209,7 +203,7 @@ padding: 3%;
 /*---------------------------------Footer secion */
 
 /*footer {
-    height: 60px;
+   height: 60px;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -227,20 +221,22 @@ padding: 3%;
     left: 0;
 }
 
-.social-footer {
-    line-height: 0;
-    font-size: 30px;
+*/.social-footer {
+    
+    /*line-height: 0;
+    font-size: 30px;*/
     text-align: center;
-    width:34%;
+    /*width:100%;
     text-decoration: none;
     position: absolute;
     bottom: 0;
     right: 33%;
-}
+}*/
 
-.social-footer li {
-    display: inline-block;
-}
+.social-footer ul > li {
+    color: rgb(48, 70, 70);
+    /*display: inline-block;*/
+}/*
 
 .legal-footer {
     color: grey;
@@ -370,6 +366,7 @@ padding: 5px 15px 0 15px;
 /*-------------- footer ------------------*/
 
 /*footer {
+    
     height: 50px;
 }
 
