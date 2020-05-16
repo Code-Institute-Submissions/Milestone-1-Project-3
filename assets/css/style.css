@@ -54,8 +54,8 @@ body {
 /*----------------- Message section----------- */
 
 .message_cell {
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
+   /* border-top: 2px solid orange;
+    border-bottom: 2px solid orange;*/
     padding: 20px 0;
 	position:relative;
 	/*background-color: red;*/
@@ -93,13 +93,13 @@ body {
 
 #features{
     padding: 70px 0 0 0;
-   /* background-color: rgb(52, 86, 109);*/
+    /*background-color: rgb(52, 86, 109);*/
     width: 100%;
 }
 
 .features_heading {
     font-family: 'Exo', sans-serif;
-    color: white;
+    /*color: rgb(0, 0, 0);*/
     width:100%;
     text-align: center;
     padding: 0px 0 10px 0;
@@ -175,7 +175,7 @@ body {
 }
 
 .features_t {
-    border-left: 2px solid orange;
+    /*border-left: 2px solid orange;*/
     font-family: 'Cabin', sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -201,7 +201,7 @@ padding: 3%;
 /*---------------------- Contact section */
 
 #contact {
-    background-color: rgb(84, 116, 138);
+    /*background-color: rgb(84, 116, 138);*/
     padding: 70px 5%;
 }
 
@@ -288,7 +288,7 @@ footer {
 /*--------------- cosmetics */
 
 .heading_sections {
-    color: white;
+   /* color: white;*/
     width:100%;
     text-align: center;
     padding: 0px 0 10px 0;
