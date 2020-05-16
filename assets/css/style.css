@@ -193,9 +193,11 @@ body {
 text-align: center;
 }
 
+
 .features_t > p {    
 padding: 3%;
 }
+
 
 
 /*---------------------- Contact section */
@@ -210,9 +212,10 @@ padding: 3%;
 }
 
 .contact_cell {
+    color: white;
     border-radius: 10px;
     padding: 50px 10%;
-    background-color: rgb(173, 148, 110);
+    background-color: rgb(48, 70, 70);
     width: 100%;    
 }
 
