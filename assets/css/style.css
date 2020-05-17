@@ -22,13 +22,12 @@ body {
 }
 
 .overview-container {
-    background-color: red;
     position:relative;
     height: 500px;
     width: 100%;
 }
 
-.overview-server {
+.overview-image {
     width: 100%;
     height: 100%;
     background-image: url(../images/SR_Background2.jpg);
@@ -39,7 +38,7 @@ body {
     z-index: 1;
 }
 
-.overview-t {
+.overview-text {
     font-family: 'Exo', sans-serif;
     width: 100%;
     padding: 5px 0;
@@ -63,7 +62,7 @@ body {
 	
 }
 
-.message-i{
+.message-image{
     width:40%;
 	height:100%;
     background-image: url(../images/ceo_message.jpg);
@@ -75,7 +74,7 @@ body {
 	z-index:0;
 }
 
-.message-t {
+.message-text {
     font-family: 'Lato', sans-serif;
     padding: 20px;
     color: white;
@@ -103,16 +102,6 @@ body {
 	
 }
 
-
-.features-cell-i{
-	width:40%;
-	height:100%;
-	float:left;
-	position: relative;
-	z-index:0;
-}
-
-
 .features-cell-image{
     width:40%;
 	height:100%;
@@ -136,7 +125,7 @@ body {
     background-image: url(../images/support.jpg);
 }
 
-.features-t {
+.features-text {
     font-family: 'Cabin', sans-serif;
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -149,14 +138,14 @@ body {
 	z-index:0;
 }
 
-.features-t > h5 {
+.features-text > h5 {
     padding-top: 3%;
     padding-left: 3%;
     text-align: left;
 }
 
 
-.features-t > p {    
+.features-text > p {    
 padding: 3%;
 }
 
@@ -305,7 +294,7 @@ padding: 3%;
     height: 200px;
 }
 
-.features-t {
+.features-text {
     padding: 0;
   	width:100%;
 	background-color: rgba(29, 54, 59, 0.85);
@@ -315,12 +304,12 @@ padding: 3%;
 	z-index:2;
 }
 
-.features-t > h5 {
+.features-text > h5 {
     padding-top: 3%;
     text-align: center;
 }
 
-.features-t > p {   
+.features-text > p {   
     font-size: 15px; 
     text-align: center;
     padding: 5px 15px 0 15px;
