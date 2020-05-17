@@ -268,11 +268,11 @@ padding: 3%;
 
 
 
-.overview-t > h1{
+.overview-text > h1{
     font-size: 30px;
 }
 
-.overview-t > h3{
+.overview-text > h3{
     font-size: 20px;
 }
 
@@ -315,35 +315,11 @@ padding: 3%;
     padding: 5px 15px 0 15px;
 }
 
-.features-cell-i-hardware, 
-.features-cell-i-internet,
-.features-cell-i-support {
+.image-hardware, 
+.image-internet,
+.image-support {
     width:100%;
 }
-
-
-
-/*-------------- footer ------------------*/
-
-/*footer {
-    
-    height: 50px;
-}
-
-.copyright-footer {
-    display: none;
-}
-
-.social-footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-}
-
-.legal-footer {
-    display: none;
-}*/
 
 
 }
