@@ -92,13 +92,6 @@ body {
     width: 100%;
 }
 
-.features-heading {
-    font-family: 'Exo', sans-serif;
-    width:100%;
-    text-align: center;
-    padding: 0px 0 10px 0;
-}
-
 .features-cell {
     margin: 20px 0px;
 	position:relative;
@@ -172,7 +165,7 @@ body {
 
 .features-t > h5 {
     padding-top: 3%;
-text-align: center;
+    text-align: center;
 }
 
 
@@ -186,10 +179,6 @@ padding: 3%;
 
 #contact {
     padding: 70px 5%;
-}
-
-.contact-heading {
-    font-family: 'Exo', sans-serif;
 }
 
 .contact-cell {
@@ -270,10 +259,11 @@ padding: 3%;
 
 /*--------------- cosmetics */
 
-.heading-sections {
+.section-heading {
     width:100%;
     text-align: center;
     padding: 0px 0 10px 0;
+    font-family: 'Exo', sans-serif;
 }
 
 /*.division {
