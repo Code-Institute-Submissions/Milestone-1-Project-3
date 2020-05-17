@@ -165,7 +165,8 @@ body {
 
 .features-t > h5 {
     padding-top: 3%;
-    text-align: center;
+    padding-left: 3%;
+    text-align: left;
 }
 
 
@@ -337,6 +338,7 @@ padding: 3%;
 
 .features-t > h5 {
     padding-top: 3%;
+    text-align: center;
 }
 
 .features-t > p {   
