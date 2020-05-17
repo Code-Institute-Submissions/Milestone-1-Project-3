@@ -11,6 +11,10 @@ body {
     height: 50px;
 }
 
+.nav-item a {
+    font-size: 20px;
+}
+
 /*---------------------------------overview secion */
 
 #overview {
@@ -344,7 +348,7 @@ padding: 3%;
 .features-t > p {   
     font-size: 15px; 
     text-align: center;
-padding: 5px 15px 0 15px;
+    padding: 5px 15px 0 15px;
 }
 
 .features-cell-i-hardware, 
