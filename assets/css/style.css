@@ -208,24 +208,24 @@ padding: 3%;
     position: absolute;
     bottom: 0;
     left: 0;
-}
+}*/
 
 .social-footer {
     
-    line-height: 0;
+    /*line-height: 0;*/
     font-size: 30px;
-    text-align: center;
-    /*width:100%;
+   /* text-align: center;
+    width:100%;
     text-decoration: none;
     position: absolute;
     bottom: 0;
-    right: 33%;
-}*/
+    right: 33%;*/
+}/*
 
 .social-footer ul {
     color: rgb(48, 70, 70);
-    /*display: inline-block;*/
-}/*
+    display: inline-block;
+}
 
 .legal-footer {
     color: grey;
@@ -240,20 +240,20 @@ padding: 3%;
 .legal-footer li {
     padding-left: 2px;
     display: inline-block;
-}
+}*/
 
 .fa-linkedin {
-    color: rgb(0, 119, 255);
+        color: rgb(48, 70, 70);
 }
 
 
 .fa-twitter-square{
-    color: rgb(47, 172, 221);
+        color: rgb(48, 70, 70);
 }
 
 .fa-youtube{
-    color:rgb(194, 32, 32);
-}*/
+        color: rgb(48, 70, 70);
+}
 
 
 
