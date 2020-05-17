@@ -92,14 +92,12 @@ body {
 
 #features{
     padding: 70px 0 0 0;
-    /*background-color: rgb(52, 86, 109);*/
     width: 100%;
 }
 
 .features-cell {
     margin: 20px 0px;
 	position:relative;
-	/*background-color: red;*/
 	width:100%;
 	height: 250px;
 	
@@ -109,7 +107,6 @@ body {
 .features-cell-i{
 	width:40%;
 	height:100%;
-	/*background-color: blue;*/
 	float:left;
 	position: relative;
 	z-index:0;
@@ -218,7 +215,7 @@ padding: 3%;
 .social-footer {
     
     /*line-height: 0;*/
-    font-size: 30px;
+    font-size: 40px;
    /* text-align: center;
     width:100%;
     text-decoration: none;
@@ -270,13 +267,6 @@ padding: 3%;
     padding: 0px 0 10px 0;
     font-family: 'Exo', sans-serif;
 }
-
-/*.division {
-   margin: auto;
-   width: 20%;
-   height: 2px;
-   background-color: #000;
-}*/
 
 
 /*--------- Media queries *------------ */
