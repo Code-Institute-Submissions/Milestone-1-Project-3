@@ -17,10 +17,6 @@ body {
 
 /*---------------------------------overview secion */
 
-#overview {
-    /*padding: 0 0 15px 0;*/
-}
-
 .overview-container {
     position:relative;
     height: 500px;
@@ -53,6 +49,10 @@ body {
 
 
 /*----------------- Message section----------- */
+
+#message{
+    padding: 75px 0 0 0;
+}
 
 .message-cell {
     padding: 20px 0;
