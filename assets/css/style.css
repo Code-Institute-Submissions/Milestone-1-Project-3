@@ -175,16 +175,9 @@ padding: 3%;
     font-size: 40px;
 }
 
-.fa-linkedin {
-        color: rgb(94, 121, 121);
-}
-
-
-.fa-twitter-square{
-        color: rgb(94, 121, 121);
-}
-
-.fa-youtube{
+.fa-linkedin,
+.fa-twitter-square,
+.fa-youtube {
         color: rgb(94, 121, 121);
 }
 
@@ -207,9 +200,9 @@ padding: 3%;
 /*--------navbar-------------*/
 
 .navbar-brand {
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
+    position: absolute;             /*                                                                                                                          */
+    transform: translateX(-50%);    /*  this lines of code were used from https://stackoverflow.com/questions/23400234/centering-brand-logo-in-bootstrap-navbar */
+    left: 50%;                      /*  look for the "The simplest way is css transform" answer by Bryan Willis                                                 */
     top:5px;
 } 
 
