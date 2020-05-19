@@ -20,6 +20,10 @@ body {
     margin: 0;
 }
 
+.col-12 {
+    position: relative;
+}
+
 /*---------------------------------overview secion */
 
 .overview-container {
@@ -100,14 +104,18 @@ body {
 .features-row {
     background-color: rgb(48, 70, 70);
     color: white;
-    	
+    margin: 15px 0;  
+    font-family: 'Cabin', sans-serif;
+    background-image: none;
 }
 
 .features-row img{
     width: 100%;
     height: 300px;
     object-fit: cover;
+    display: initial;
 }
+
 
 
 /*------------------ Features section -----------------*/
@@ -229,7 +237,7 @@ padding: 3%;
 
 /*--------- Media queries *------------ */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 /*--------navbar-------------*/
 
@@ -244,6 +252,32 @@ padding: 3%;
     border: none;
     width: 40px;
     height: 40px;
+}
+
+
+
+/*------------- features -----------------*/
+
+.features-row {
+    margin: 15px 0;  
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
+.features-row img{
+    display: none;
+}
+
+.overlay {
+    width: 100%;
+    background-color: rgb(29, 54, 59, 0.8);
+}
+
+.background-hardware{
+    background-image: url(../images/hardware.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 }
