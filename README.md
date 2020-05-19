@@ -35,10 +35,10 @@ This section is also where you would share links to any wireframes, mockups, dia
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstrap** to implement a responsive navigation bar, help with the layout of some elements and provide classes for styles.
 
-- [Fontawesome]	(https://fontawesome.com/)
+- [Fontawesome](https://fontawesome.com/)
 	- **Fontawesome** is used to provide font icons in the shape of social networks.
 	
-- [Google-Fonts] (https://fonts.google.com/)
+- [Google-Fonts](https://fonts.google.com/)
 	- The page use several fonts for text from **Google Fonts** service.
 
 
