@@ -127,6 +127,10 @@ body {
     font-size: 40px;
 }
 
+.social-footer ul{    
+    padding: 0;
+}
+
 .fa-linkedin,
 .fa-twitter-square,
 .fa-youtube {
