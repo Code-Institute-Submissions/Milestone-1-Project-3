@@ -5,7 +5,7 @@ The site was created to introduce and create expectations for a new company serv
 The page doesn't include any concrete detail about the service, like pricing or technical specifications, but it gives
 a general overview of what to expect and it hints to future things.
 
-A contact form is provided to allow anyone interested request more information.
+A contact form is provided to allow the users request more information.
  
 ## UX
 
@@ -45,11 +45,11 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Testing
 
 1. The HTML and CSS code were tested with [CSS Validation Service](https://jigsaw.w3.org/css-validator/) and [Markup Validation Service](https://validator.w3.org/).
-   The test found two small errors that were fixed, following tests mark the code as okay.
+   Any error found during testing has been adress, following tests mark the code as okay.
   
 2. During development the site has been checked in a regular basis with the developer tools of the browser to ensure that it worked as intended in desktop and mobile enviroments.
 
-3. The site has been tested with the browsers Brave and Firefox.
+3. The site has been tested with the browsers Brave and Firefox (Desktop).
 
 4. The site has been tested on a Galaxy A8 (2018) with the browsers Brave (1.8.112) and Firefox Focus (8.3.0).
 
