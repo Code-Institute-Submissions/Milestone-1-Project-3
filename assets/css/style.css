@@ -24,6 +24,8 @@ body {
     position: relative;
 }
 
+
+
 /*---------------------------------overview secion */
 
 .overview-container {
@@ -118,6 +120,10 @@ body {
 
 /*---------------- test for features -------*/
 
+#features{
+    padding-top: 75px;
+}
+
 .features-row {
     background-color: rgb(48, 70, 70);
     color: white;
@@ -128,7 +134,7 @@ body {
 
 .features-row img{
     width: 100%;
-    height: 320px;
+    height: 300px;
     object-fit: cover;
     display: initial;
 }
@@ -278,6 +284,7 @@ padding: 3%;
     height: 40px;
 }
 
+
 /*---------------- message ------------*/
 
 .background-ceo {
@@ -409,10 +416,10 @@ padding: 3%;
 
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
 
-.features-text > p {
-    font-size: 14px;       
+.container {
+    padding: 0;
+    margin: 0;
 }
-
 }
