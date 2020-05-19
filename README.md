@@ -9,6 +9,16 @@ A contact form is provided to allow the users request more information.
  
 ## UX
 
+The idea was to create a small website to generate expectation about a new service from a new company.
+The primary target would be press sites/journalists dedicated to technology (for a future in deep coverage) and professionals/business that could be interested in the services itslef.
+
+In addition, the possibility of create a data-base with potential customer trought the information collected from message received from the contact form (the reason for the required fields).
+
+The user could use the navigation bar to go directly to the section that they are interested:
+
+- If a user want to read about the features of the service, they could select the features option.
+- If they want to contact the company, they could select the contact option to know more.
+- If they want to contact using social networks, they would find links on the footer close the contact form.
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
