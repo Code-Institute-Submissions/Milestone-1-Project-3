@@ -228,6 +228,14 @@ padding: 3%;
 
 }
 
+@media (min-width: 768px){
+.container {
+    max-width: 750px;
+}
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
 /*-------------- overview ------------------*/
@@ -301,14 +309,10 @@ padding: 3%;
     width:100%;
 }
 
+}
+
+
 /*--------------- test -------------*/
-
-@media (min-width: 768px){
-
-.container {
-    max-width: 750px;
-}
-}
 
 
 
@@ -319,6 +323,5 @@ padding: 3%;
        
 }
 
-}
 
 }
