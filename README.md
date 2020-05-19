@@ -89,8 +89,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- The Privacy Policy text is a modification over the privacy policy from [trumpipsum.net own policy](https://trumpipsum.net/privacy-policy/)
-- The Term of Use text is from an archived version of [placeholder.com](https://web.archive.org/web/20200216231943/https://placeholder.com/about/privacy/#content)
+- ~~The Privacy Policy text is a modification over the privacy policy from [trumpipsum.net own policy](https://trumpipsum.net/privacy-policy/)~~
+- The Term of Use and Privacy Policy text is from an archived version of [placeholder.com](https://web.archive.org/web/20200216231943/https://placeholder.com/about/privacy/#content)
 - All the rest of text is original, and no real information has been used. If that's the case it just pure coincidence.
 
 ### Media
