@@ -69,20 +69,17 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ### Bugs
 
-- The links to the **privacy policy** and the **terms of use** point to nothing.
+- ~~The links to the **privacy policy** and the **terms of use** point to nothing.~~
 - The form returns and error "Error code: 501", since "action" is not defined.
 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy the project I used GitHub Pages. The version in use is the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+The address for the deployed project is:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+https://ed-ip.github.io/Milestone-1-Project/
 
 
 ## Credits
