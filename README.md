@@ -51,18 +51,20 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 3. The site has been tested with the browsers Brave and Firefox.
 
-4. Navigation bar:
+4. The site has been tested on a Galaxy A8 (2018) with the browsers Brave (1.8.112) and Firefox Focus (8.3.0).
+
+5. Navigation bar:
 	1. Desktop version, try to click in any option to verify that the page scrolls to the right section.
 	2. Mobile version, verify that the navigation bar options gets collapsed when the size of the screen is reduced.
 	3. Mobile version, verify that the menu options had the same behavior that in desktop mode.
 	4. Mobile version, verify that the menu open/close correctly when is push.
 
-5. Contact form:
+6. Contact form:
 	1. Test: Not filling one or more of the required shows an error message asking the user to fill the field.
 	2. Test: Not ticking the acknowledge for the privacy policy shows an error message.
 	3. Test: Trying to submit with an incorrect email address shows an error message asking the user to fill the field with the right content.
 	
-6. Social networks links:
+7. Social networks links:
 	1. Click in every of the three links to test the social networks open in a new browser tab.
 
 
