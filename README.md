@@ -24,17 +24,12 @@ This section is also where you would share links to any wireframes, mockups, dia
 - Contact form - Allow the users interested to request more information filling the form.
 - Links to social networks - Allow the users to visit the social sites for the company.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
 ## Technologies Used
 
-- [Hypertext Markup Language (HTML)]
+- [HTML]
 	- **HTML** is used to create the structure of the web-page and to add content.
 	
-- [Cascading Style Sheets (CSS)]
+- [CSS]
 	- **CSS** is used to provide styles for the web-page.
 
 - [Bootstrap](https://getbootstrap.com/)
@@ -43,8 +38,8 @@ In addition, you may also use this section to discuss plans for additional featu
 - [Fontawesome]	(https://fontawesome.com/)
 	- **Fontawesome** is used to provide font icons in the shape of social networks.
 	
-- [Google fonts] (https://fonts.google.com/)
-	- The page use several fonts for text from **Google Font** service.
+- [Google-Fonts] (https://fonts.google.com/)
+	- The page use several fonts for text from **Google Fonts** service.
 
 
 ## Testing
