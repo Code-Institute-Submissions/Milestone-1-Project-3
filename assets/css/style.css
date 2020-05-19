@@ -301,5 +301,24 @@ padding: 3%;
     width:100%;
 }
 
+/*--------------- test -------------*/
+
+@media (min-width: 768px){
+
+.container {
+    max-width: 750px;
+}
+}
+
+
+
+@media only screen and (max-width: 400px){
+
+.features-text > p {
+    font-size: 14px;
+       
+}
+
+}
 
 }
