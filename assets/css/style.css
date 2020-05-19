@@ -78,45 +78,7 @@ body {
 
 /*----------------- Message section----------- */
 
-/*#message{
-    padding: 75px 0 0 0;
-}
 
-.message-cell {
-    padding: 20px 0;
-	position:relative;
-	width:100%;
-	height: 400px;
-	
-}
-
-.message-image{
-    width:40%;
-	height:100%;
-    background-image: url(../images/ceo_message.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	float:left;
-	position: relative;
-	z-index:0;
-}
-
-.message-text {
-    font-family: 'Lato', sans-serif;
-    padding: 20px;
-    color: white;
-	width:60%;
-	background-color: rgb(48, 70, 70);
-	float:right;
-	height:100%;
-	position:relative;
-	z-index:0;
-}
-
-#ceo-sign{
-    text-align: right;
-}*/
 
 /*---------------- test for features -------*/
 
@@ -146,71 +108,6 @@ body {
 .features-row p{
     padding-top: 10px;
 }
-
-
-/*------------------ Features section -----------------*/
-
-/*#features{
-    padding: 75px 0 0 0;
-    width: 100%;
-}
-
-.features-cell {
-    margin: 20px 0px;
-	position:relative;
-	width:100%;
-	height: 250px;
-	
-}
-
-.features-cell-image{
-    width:40%;
-	height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    float:left;
-	position: relative;
-	z-index:0;
-	
-}
-.image-hardware{
-    background-image: url(../images/hardware.jpg);	
-}
-
-.image-internet{
-    background-image: url(../images/internet.jpg);
-}
-
-.image-support{
-    background-image: url(../images/support.jpg);
-}
-
-.features-text {
-    font-family: 'Cabin', sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    font-size: 105%;
-    width:60%;
-	background-color: rgb(48, 70, 70);
-	float:right;
-	height:100%;
-	position:relative;
-	z-index:0;
-}
-
-.features-text > h5 {
-    padding-top: 3%;
-    padding-left: 3%;
-    text-align: left;
-}
-
-
-.features-text > p {    
-padding: 3%;
-}
-
-*/
 
 /*---------------------- Contact section */
 
@@ -300,6 +197,10 @@ padding: 3%;
     text-align: center;
 }
 
+.features-row h5{
+    margin-top: 15px;
+}
+
 .features-row img{
     display: none;
 }
@@ -320,27 +221,21 @@ padding: 3%;
 
 .background-hardware{
     background-image: url(../images/hardware.jpg);
-    
 }
 
 .background-internet{
     background-image: url(../images/internet.jpg);
-    
 }
 
 .background-support{
     background-image: url(../images/support.jpg);
-    
 }
-
 }
 
 
 @media only screen and (max-width: 600px) {
 
 /*-------------- overview ------------------*/
-
-
 
 .overview-text > h1{
     font-size: 30px;
@@ -349,72 +244,6 @@ padding: 3%;
 .overview-text > h3{
     font-size: 20px;
 }
-
-/*----------------- Message section----------- */
-
-/*.message-cell {
-    padding:  0;
-}
-
-.message-image{
-    width:100%;
-   
-}
-
-.message-text {
-    padding: 3% 3% 0 3%;
-    width:100%;
-	background-color: rgb(29, 54, 59, 0.85);
-	position:absolute;
-    left:0;
-	z-index:1;
-}*/
-
-
-/*------------- features -----------------*/
-
-/*#features{
-    padding: 70px 0 0 0;
-    
-}
-
-.features-cell {
-    height: 200px;
-}
-
-.features-text {
-    padding: 0;
-  	width:100%;
-	background-color: rgba(29, 54, 59, 0.85);
-	height:100%;
-	position:absolute;
-    left:0;
-	z-index:2;
-}
-
-.features-text > h5 {
-    padding-top: 3%;
-    text-align: center;
-}
-
-.features-text > p {   
-    font-size: 15px; 
-    text-align: center;
-    padding: 5px 15px 0 15px;
-}
-
-.image-hardware, 
-.image-internet,
-.image-support {
-    width:100%;
-}
-
-}*/
-
-
-/*--------------- test -------------*/
-
-
 
 @media only screen and (max-width: 500px){
 
