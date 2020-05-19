@@ -1,4 +1,4 @@
-# Marketing Web-page
+# Marketing site
 
 The site was created to introduce and create expectations for a new company service.
 
