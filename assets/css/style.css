@@ -26,7 +26,7 @@ body {
 
 
 
-/*---------------------------------overview secion */
+/*------------------------- Overview secion ------------*/
 
 .overview-container {
     position:relative;
@@ -57,7 +57,7 @@ body {
     z-index: 2;
 }
 
-/*--------------------- new message section-----------*/
+/*--------------------- Message section -----------*/
 
 #message{
     padding: 75px 0 0 0;
@@ -76,11 +76,8 @@ body {
     height: 400px;
 }
 
-/*----------------- Message section----------- */
 
-
-
-/*---------------- test for features -------*/
+/*---------------- Features section -------*/
 
 #features{
     padding-top: 75px;
@@ -109,7 +106,7 @@ body {
     padding-top: 10px;
 }
 
-/*---------------------- Contact section */
+/*---------------------- Contact section -----------*/
 
 #contact {
     padding: 75px 5%;
@@ -123,7 +120,7 @@ body {
     width: 100%;    
 }
 
-/*---------------------------------Footer secion */
+/*---------------------------------Footer secion ---------*/
 
 
 .social-footer {    
@@ -152,7 +149,7 @@ body {
 
 
 
-/*--------------- cosmetics */
+/*--------------- cosmetics ------*/
 
 .section-heading {
     width:100%;
@@ -182,14 +179,14 @@ body {
 }
 
 
-/*---------------- message ------------*/
+/*---------------- Message section ------------*/
 
 .background-ceo {
     background-image: url(../images/ceo_message.jpg);
 }
 
 
-/*------------- features -----------------*/
+/*------------- Features section -----------------*/
 
 .features-row {
     margin: 15px 0;  
@@ -235,7 +232,7 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-/*-------------- overview ------------------*/
+/*-------------- Overview section ------------------*/
 
 .overview-text > h1{
     font-size: 30px;
