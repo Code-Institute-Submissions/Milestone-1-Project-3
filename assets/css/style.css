@@ -273,11 +273,27 @@ padding: 3%;
     background-color: rgb(29, 54, 59, 0.8);
 }
 
-.background-hardware{
-    background-image: url(../images/hardware.jpg);
+.background-hardware,
+.background-internet,
+.background-support {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.background-hardware{
+    background-image: url(../images/hardware.jpg);
+    
+}
+
+.background-internet{
+    background-image: url(../images/internet.jpg);
+    
+}
+
+.background-support{
+    background-image: url(../images/support.jpg);
+    
 }
 
 }
