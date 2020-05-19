@@ -10,9 +10,9 @@ A contact form is provided to allow the users request more information.
 ## UX
 
 The idea was to create a small website to generate expectation about a new service from a new company.
-The primary target would be press sites/journalists dedicated to technology (for a future in deep coverage) and professionals/business that could be interested in the services itslef.
+The primary target would be press sites/journalists dedicated to technology (for a future in deep coverage) and professionals/business that could be interested in the services itself.
 
-In addition, the possibility of create a data-base with potential customer trought the information collected from message received from the contact form (the reason for the required fields).
+In addition, the possibility of create a data-base with potential customer through the information collected from message received from the contact form (the reason for the required fields).
 
 The user could use the navigation bar to go directly to the section that they are interested:
 
@@ -50,9 +50,9 @@ Wireframes and mockups from the design of the projects can be found [here](https
 ## Testing
 
 1. The HTML and CSS code were tested with [CSS Validation Service](https://jigsaw.w3.org/css-validator/) and [Markup Validation Service](https://validator.w3.org/).
-   Any error found during testing has been adress, following tests mark the code as okay.
+   Any error found during testing has been addressed, following tests mark the code as okay.
   
-2. During development the site has been checked in a regular basis with the developer tools of the browser to ensure that it worked as intended in desktop and mobile enviroments.
+2. During development the site has been checked in a regular basis with the developer tools of the browser to ensure that it worked as intended in desktop and mobile environments.
 
 3. The site has been tested with the browsers Brave and Firefox (Desktop).
 
@@ -61,7 +61,7 @@ Wireframes and mockups from the design of the projects can be found [here](https
 5. Navigation bar:
 	1. Desktop version, try to click in any option to verify that the page scrolls to the right section.
 	2. Mobile version, verify that the navigation bar options gets collapsed when the size of the screen is reduced.
-	3. Mobile version, verify that the menu options had the same behavior that in desktop mode.
+	3. Mobile version, verify that the menu options had the same behaviour that in desktop mode.
 	4. Mobile version, verify that the menu open/close correctly when is push.
 
 6. Contact form:
