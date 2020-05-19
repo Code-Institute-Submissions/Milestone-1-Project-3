@@ -15,6 +15,11 @@ body {
     font-size: 20px;
 }
 
+.col-5 {
+    padding: 0;
+    margin: 0;
+}
+
 /*---------------------------------overview secion */
 
 .overview-container {
@@ -90,9 +95,22 @@ body {
     text-align: right;
 }
 
+/*---------------- test for features -------*/
+
+.features-row {
+    background-color: rgb(48, 70, 70);
+    	
+}
+
+.features-row img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
 /*------------------ Features section -----------------*/
 
-#features{
+/*#features{
     padding: 75px 0 0 0;
     width: 100%;
 }
@@ -152,7 +170,7 @@ body {
 padding: 3%;
 }
 
-
+*/
 
 /*---------------------- Contact section */
 
