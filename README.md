@@ -20,7 +20,9 @@ The user could use the navigation bar to go directly to the section that they ar
 - If they want to contact the company, they could select the contact option to know more.
 - If they want to contact using social networks, they would find links on the footer close the contact form.
 
-Wireframes and mockups from the design of the projects can be found [here](https://github.com/ED-IP/Milestone-1-Project/blob/master/Wireframes/Mockups_and_wireframes.pdf)
+Wireframes and mockups from the design of the project can be found [here](https://github.com/ED-IP/Milestone-1-Project/blob/master/Wireframes/Mockups_and_wireframes.pdf)
+
+First iterations of the sites had a heavy use of custom CSS, later ones were move to Bootstrap in an effort of make the code cleaner and less confusing.
 
 ## Features
 
@@ -82,7 +84,7 @@ Wireframes and mockups from the design of the projects can be found [here](https
 
 ## Deployment
 
-To deploy the project I used GitHub Pages. The version in use is the master branch.
+To deploy the project I have used GitHub Pages. The version in use is the master branch.
 
 The address for the deployed project is:
 
@@ -109,7 +111,3 @@ https://ed-ip.github.io/Milestone-1-Project/
 	- [Carl Heyerdahl](https://unsplash.com/photos/KE0nC8-58MQ)
 	- [Sander Weeteling](https://unsplash.com/photos/4I41IQtmSs0)
 	- [Luis Villasmil](https://unsplash.com/photos/4V8uMZx8FYA)
-
-### Acknowledgements
-
-- I received inspiration for this project from X
