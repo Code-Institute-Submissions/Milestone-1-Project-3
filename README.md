@@ -1,4 +1,4 @@
-# D2R2 quantum server cluster introduction site
+# D2R2 Quantum Server Cluster Introduction Site
 
 The site was created to introduce and create expectations for a new company service.
 
