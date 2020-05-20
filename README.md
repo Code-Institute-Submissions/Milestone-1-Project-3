@@ -1,4 +1,4 @@
-# Marketing site
+# D2R2 quantum server cluster introduction site
 
 The site was created to introduce and create expectations for a new company service.
 
